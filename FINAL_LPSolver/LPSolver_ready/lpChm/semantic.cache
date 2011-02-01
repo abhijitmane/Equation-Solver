@@ -1,0 +1,43 @@
+;; Object lpChm/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "lpChm/"
+  :tables (list 
+   (semanticdb-table "home.html"
+    :major-mode 'html-helper-mode
+    :tags '(("LPSolver-Home" section nil nil [15 53]) ("OPERATION RESEARCH" section nil nil [53 61]) ("OPERATION RESEARCH" section nil nil [61 86]) ("OPERATION RESEARCH" section nil nil [86 114]) ("OPERATION RESEARCH" section (:members (("OPERATION RESEARCH" section (:members (("1.Introduction" section nil nil [393 439]) ("2.Simplex Method" section nil nil [439 486]) ("3.Duality" section nil nil [486 523]) ("4.Sensitivity Analysis" section nil nil [523 580]) ("5.Help" section nil nil [580 583]))) nil [139 142]))) nil [114 120]))
+    :file "home.html"
+    :pointmax 986
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "help.html"
+    :major-mode 'html-helper-mode
+    :tags '(("HOW TO USE LPSolver" section (:members (("HOW TO USE LPSolver" section nil nil [47 146]) ("HOW TO USE LPSolver" section nil nil [146 235]) ("HOW TO USE LPSolver" section (:members (("a)Problem Format :" section nil nil [367 655]) ("NOTE:" section nil nil [655 1474]) ("* Solve Menu:" section nil nil [1474 1700]) ("* Sensitivity Menu:" section nil nil [1700 2107]) ("* Steps to go....." section (:members (("" section nil nil [2808 2907]) ("" section nil nil [2907 3004]) ("" section nil nil [3004 3007]))) nil [2107 2111]))) nil [235 238]))) nil [8 14]))
+    :file "help.html"
+    :pointmax 3119
+    )
+   (semanticdb-table "simplex.html"
+    :major-mode 'html-helper-mode
+    :tags '(("SIMPLEX METHOD" section (:members (("SIMPLEX METHOD" section nil nil [47 143]) ("SIMPLEX METHOD" section nil nil [143 233]) ("SIMPLEX METHOD" section (:members (("* Standard Form of LP model:" section nil nil [360 1498]) ("VIEW OF SIMPLEX TAB :" section (:members (("
+<a href=\"dual.html\"><img src=\"next.png\" border=\"0\" align=\"right\" alt=\"Next Page\">" section nil nil [1705 1802]) ("" section nil nil [1802 1899]) ("" section nil nil [1899 1902]))) nil [1498 1502]))) nil [233 236]))) nil [8 14]))
+    :file "simplex.html"
+    :pointmax 2016
+    )
+   (semanticdb-table "sensitivity.html"
+    :major-mode 'html-helper-mode
+    :tags '(("SENSITIVITY ANALYSIS" section (:members (("SENSITIVITY ANALYSIS" section nil nil [47 140]) ("SENSITIVITY ANALYSIS" section nil nil [140 230]) ("SENSITIVITY ANALYSIS" section (:members (("" section nil nil [670 763]) ("" section nil nil [763 861]) ("" section nil nil [861 864]))) nil [230 233]))) nil [8 14]))
+    :file "sensitivity.html"
+    :pointmax 977
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "dual.html"
+    :major-mode 'html-helper-mode
+    :tags '(("DUALITY" section (:members (("DUALITY" section nil nil [47 143]) ("DUALITY" section nil nil [143 240]) ("DUALITY" section (:members (("PRIMAL             -          DUAL" section nil nil [387 1101]) ("General View:" section (:members (("" section nil nil [1602 1698]) ("" section nil nil [1698 1803]) ("" section nil nil [1803 1806]))) nil [1101 1105]))) nil [240 243]))) nil [8 14]))
+    :file "dual.html"
+    :pointmax 1919
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "semantic.cache"
+  :semantic-tag-version "2.0pre3"
+  :semanticdb-version "2.0pre3"
+  )

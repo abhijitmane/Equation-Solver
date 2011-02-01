@@ -1,0 +1,53 @@
+<html>
+<body style=background-color:#f0f8ff>
+
+<a href="sensitivity.html"><img src="prev.png" border="0" align="left" alt="Previous Page"></a><p>
+<a href="home.html"><img src="next.png" border="0" align="right" alt="Next Page"></a><p>
+<h1><center><em><font color="#ff0000"><u>HOW TO USE LPSolver</u></font></em></center></h1>
+
+<pre style="margin :2em"> 
+<br><hr><br>
+<h4 style=background-color:FFA07A><i>a)Problem Format :</i></h4>
+          declarations: a,b,c
+          min: 8a+5b+4c
+          subject_to:
+                4a+2b+8c=12
+                7a+5b+6c>=9
+                8a+5b+4c<=10
+                3a+7b+9c>=7
+          restrictions: a>=0;c<=0
+<h4 style=background-color:FFA07A><i>NOTE:</i></h4>
+         1.declarations: & variable names must be on single line
+         2.Objective function min:/max: C1X1+C2X2+.... must be on single line
+         3.Only 'subject_to:' statement statement should be on single line(No any constraint)
+         4.After subject_to, for all constraints, one constraint should be on one line
+         5.For variable restrictions, restrictions statement is followed by variable restrictions
+              variables with >= or <= rest. will be like a,b,c,d>=0 then ;(semicolon) is a seprator. Then next <= or >= rest. like e,f,g<=0
+              semicolon(;) must be used as separator for <= & >= rests. & ,(coma) is used as separator for variables (eg. a,b>=0; c,d<=0;)
+              Absent variable will be considered as unrestricted.
+<h4 style=background-color:FFA07A><i> * Solve Menu:</i></h4>
+        1. Simplex: Solve the given problem using simplex method and get result in simplex tag(not Editable).
+        2. Dual: Get the dual of problem in dual panel
+<h4 style=background-color:FFA07A><i> * Sensitivity Menu:</i></h4>
+        1. Get the range of Values for Objective Function Coefficients of NBVs.
+        2. Get the range of Values for Objective Function Coefficients of BVs.
+        3. Get the range of Values for RHS values of Constraints.
+        4. Get the range of Values for Constraint Coefficients of NBVs.
+        5. To Add a New Decision Variable.
+<h4 style=background-color:FFA07A><i> * Steps to go.....</i></h4>
+        1. Open the linear programming solver window.
+        2. Enter new problem or open problem from a file in problem tab.
+        3. Problem format should be as given in above NOTE. 
+        4. You can save the new/updated problem in file.
+        5. To solve it, select 'simplex' menuitem from 'solve' menu. Result will be displayed on 'simplex' tab. 
+	6. To get 'dual', select 'duality' menuitem from 'solve' menu. Result will be displayed on 'Dual' tab.
+        7. After solving simplex, you can do sensitivity analysis according to your choice.
+        8. Errors(if any) will be displayed on 'Error' tab.
+<br><hr><br>
+</pre>
+
+<a href="sensitivity.html"><img src="prev.png" border="0" align="left" alt="Previous Page"></a><p>
+<a href="home.html"><img src="next.png" border="0" align="right" alt="Next Page"></a><p>
+<center><a href="home.html"><img src="home.png" border="0" align="center" alt="Home Page"></a></center><p>
+</body>
+</html>

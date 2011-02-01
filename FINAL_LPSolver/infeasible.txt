@@ -1,0 +1,6 @@
+declarations:   a,b
+max: 4a+3b
+subject_to:
+a+4b <=3
+3a+b >= 12
+a,b >= 0

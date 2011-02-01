@@ -1,0 +1,10 @@
+DeclaraTions:   a,b
+
+max: 6a+5b
+
+subject_to:
+
+a+b <= 5
+3a+2b<=12
+
+restrictions: a,b >=0;

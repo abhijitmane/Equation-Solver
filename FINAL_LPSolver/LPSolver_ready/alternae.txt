@@ -1,0 +1,9 @@
+DeclaraTions:   a,b
+
+max: 4a+3b
+
+subject_to:
+8a+6b <=25
+3a+4b <= 15
+
+restrictions: a,b >=0;

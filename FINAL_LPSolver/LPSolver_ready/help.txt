@@ -1,0 +1,38 @@
+Helping Instructions for LPSolver:-
+a)Problem Format : 
+	  declarations: a,b,c
+	  min: 8a+5b+4c
+	  subject_to:
+		4a+2b+8c=12
+        	7a+5b+6c>=9
+        	8a+5b+4c<=10
+        	3a+7b+9c>=7
+	  restrictions: a>=0;c<=0
+   NOTE: 
+   	 1.declarations: & variable names must be on single line
+   	 2.Objective function min:/max: C1X1+C2X2+.... must be on single line
+	 3.Only 'subject_to:' statement statement should be on single line(No any constraint)
+	 4.After subject_to, for all constraints, one constraint should be on one line
+	 5.For variable restrictions, restrictions statement is followed by variable restrictions 
+	      variables with >= or <= rest. will be like a,b,c,d>=0 then ;(semicolon) is a seprator. Then next <= or >= rest. like e,f,g<=0
+  	      semicolon(;) must be used as separator for <= & >= rests. & ,(coma) is used as separator for variables (eg. a,b>=0; c,d<=0;)
+	      Absent variable will be considered as unrestricted. 
+   
+ a) File Menu:
+    	1. New: Problem panel gets empty to write new problem.
+	2. Open: Open an existing file in problem panel
+	3. Save: Saves the current problem in specified file 
+	4. Save As:Saves the current problem in specified file by other name
+	5. Exit:  Exit LPSolver.
+
+ b. Edit Menu:
+        1. Cut: cuts the text you selected.
+	2. Copy: copys the text you selected.
+	3. Paste: paste the text you copy or cut.
+	4. Select All: select all region on given text panel.
+	5. Find: search the word or character in Text.
+ 
+ 3. Solve Menu:
+    	1. Simplex: Solve the given problem using simplex method and get result in simplex tag(not Editable).
+	2. Dual: Get the dual of problem in dual panel
+	3. Sensitivity:

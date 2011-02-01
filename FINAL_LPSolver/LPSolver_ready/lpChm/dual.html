@@ -1,0 +1,56 @@
+<html>
+<body style=background-color:#f0f8ff>
+
+<a href="simplex.html"><img src="prev.png" border="0" align="left" alt="Previous Page"></a><p>
+
+<a href="sensitivity.html"><img src="next.png" border="0" align="right" alt="Next Page"></a><p>
+
+<h1><center><em><u><font color="#ff0000">DUALITY</font></u></em></center></h1>
+
+<pre style="margin :2em"> 
+
+ * Relationship between PRIMAL & DUAL:
+<h4 style=background-color:FFA07A><i>           PRIMAL             -          DUAL</i></h4>
+1. # of constraints           -    # of variable
+2. # of variables             -    # of constraints
+3. RHS                        -    Objective Function
+4. Objective Function         -    RHS
+5. Coeff. matrix(A)           -    Transpose of Coeff. Matrix(A^t)
+6. Equality(=) Constraints    -    Unrestricted Variables
+7. Unrestricted Variables     -    Equality(=) Constraints
+8. <= Constraints             -    >= Variables
+9. >= Constraints             -    <= Variables
+10.<= Variables               -    <= Constraints
+11.>= Variables               -    >= Constraints
+12. MAX Problem               -    MIN Problem 
+<h4 style=background-color:FFA07A><i> General View:</i></h4>
+	If the primal is,
+		max z = CX
+		subject_to :
+			AX <= b
+			Xi>=0
+		where C - Coefficient matrix in the objective function.
+		      A - Coefficient matrix of the decision variables in the constraints.
+		      X - Decision variable matrix.
+		      
+	The dual form of above primal problem is,
+		min z = bX'
+		subject_to :
+			A'X' >= C
+			Xi'>=0
+		where X' - new decision variables.
+		      A' - Transpose of matrix A
+
+
+
+<br><hr><br>
+</pre>
+
+<a href="simplex.html"><img src="prev.png" border="0" align="left" alt="Previous Page"></a><p>
+
+<a href="sensitivity.html"><img src="next.png" border="0" align="right" alt="Next Page"></a><p>
+
+<center><a href="home.html"><img src="home.png" border="0" align="center" alt="Home Page"></a></center><p>
+
+</body>
+</html>

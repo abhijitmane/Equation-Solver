@@ -1,0 +1,51 @@
+<html>
+<body style=background-color:#f0f8ff>
+
+<a href="features.html"><img src="prev.png" border="0" align="left" alt="Previous Page"></a><p>
+<a href="dual.html"><img src="next.png" border="0" align="right" alt="Next Page"></a><p>
+
+<h1><center><em><u><font color="#ff0000">SIMPLEX METHOD</font></u></em></center></h1>
+
+<pre style="margin :2em"> 
+<br><hr><br>
+<h4 style=background-color:FFA07A><i> * Standard Form of LP model: </i></h4>
+        max z = c1*x1 + c2*x2 + ........... + cn*xn
+        subject_to :
+		a11*x1 + a12*x2 + ........+ a1n*xn <= b1
+		a21*x1 + a22*x2 + ........+ a2n*xn <= b2       
+		.
+		.
+		am1*x1 + am2*x2 + ........+ amn*xn <= bm
+		x1,x2,....,xn >= 0
+
+AND
+
+        min z = c1*x1 + c2*x2 + ........... + cn*xn
+        subject_to :
+		a11*x1 + a12*x2 + ........+ a1n*xn >= b1
+		a21*x1 + a22*x2 + ........+ a2n*xn >= b2       
+		.
+		.
+		am1*x1 + am2*x2 + ........+ amn*xn >= bm
+		x1,x2,....,xn >= 0
+
+Whenever the inequality in constraints is <= , the slack variables are added and whenever the
+inequality in constraints is >= , the surplus variables are added in order to get equations.
+The slack variables act as the initial basic feasible solution to the model.
+Whenever the slack variables are not in the model , the artificial variables are added in order
+to get the initial basic feasible solution to the model.
+	Here(in case of artificial variables) the simplex big-M method is used to get the optimal solution.
+You can see Solved Problem(all Iterations) on Simplex Tab.
+
+<h4 style=background-color:FFA07A><i>VIEW OF SIMPLEX TAB :</i></h4>
+	The tableau form shows the computations of finding the optimal solution followed by the 
+required optimal solution to the model.
+
+</pre>
+
+<a href="features.html"><img src="prev.png" border="0" align="left" alt="Previous Page"></a><p>
+<a href="dual.html"><img src="next.png" border="0" align="right" alt="Next Page"></a><p>
+<center><a href="home.html"><img src="home.png" border="0" align="center" alt="HOME Page"></a></center><p>
+
+</body>
+</html>
